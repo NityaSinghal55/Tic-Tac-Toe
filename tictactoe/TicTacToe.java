@@ -175,13 +175,14 @@ public class TicTacToe implements ActionListener{
 				tie=false;
 				break;
 			}
+		}
 			if(tie) {
 				Textfield.setText("It's a Tie!");
 				for(int j=0; j<9;j++) {
 					buttons[j].setEnabled(false);
 				}
 			}
-		}
+		
 		
 	}
 		
